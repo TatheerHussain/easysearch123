@@ -19,7 +19,7 @@ def index():
     except Exception:
         return "Could not read to file"
     
-    return "นายอาคม สุวรรณประเสริฐ เลขที่ 0 ชั้น ม.4/"
+    return "aaaaaaaaaaaaaaaaaaaaaa"
 
 @app.route("/webhook", methods=['POST'])
 def webhook():
@@ -54,7 +54,7 @@ def callback():
     return '',200
 
 def sendText(user, text):
-  LINE_API = 'https://developers.line.biz/console/channel/1655581941/message/reply'
+  LINE_API = 'https://developers.line.biz/console/channel/1655581941'
   headers = {
     'Content-Type': 'application/json; charset=UTF-8',
     'Authorization': os.environ['Authorization']    # ตั้ง Config vars ใน heroku พร้อมค่า Access token
