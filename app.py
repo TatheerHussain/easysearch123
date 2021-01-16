@@ -54,7 +54,7 @@ def callback():
     return '',200
 
 def sendText(user, text):
-  LINE_API = 'https://developers.line.biz/console/channel/1655581941'
+  LINE_API = 'https://developers.line.biz/console/channel/U4f3fa248dc1b8daede799c3045929f4b/message/reply'
   headers = {
     'Content-Type': 'application/json; charset=UTF-8',
     'Authorization': os.environ['Authorization']    # ตั้ง Config vars ใน heroku พร้อมค่า Access token
