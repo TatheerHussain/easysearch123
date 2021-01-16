@@ -47,9 +47,9 @@ def callback():
             f.close()
 #           sendText(user,nameList)
         except Exception:
-            sendText(user,"ขออภัย..ไม่สามารถเปิดไฟล์ได้")
-    elif(userText=="ไอ้บ้า"):
-        sendText(user,"ไม่บ้านะ")
+            sendText(user,"user name")
+    elif(userText=="usertext"):
+        sendText(user,"usertext")
 
     return '',200
 
